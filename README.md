@@ -66,6 +66,14 @@ Stores:
 | Decision Agent | Applies business rules |
 | Notification Agent | Sends alerts to users |
 
+## Non-Functional Requirements
+
+- Scalability
+- Reliability
+- Availability
+- Observability
+- Security
+
 ## Data Flow
 
 1. User submits a product tracking request.
@@ -107,6 +115,12 @@ Reviewers can:
 - Reject alerts
 - Request additional analysis
 
+## Assumptions
+
+- Product data is available through APIs or scraping.
+- Historical pricing data exists.
+- Users opt in to notifications.
+
 ## Tech Stack
 
 ### Frontend
@@ -141,3 +155,9 @@ Reviewers can:
 - GitHub Actions
 - Railway
 
+## Monitoring & Observability
+
+- Langfuse for agent tracing
+- OpenTelemetry for distributed tracing
+- Logging for agent decisions
+- Alerting for failures
