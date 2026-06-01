@@ -24,7 +24,7 @@ The system follows a layered architecture:
 
 This architecture ensures scalable, explainable, and business-aligned decision making.
 
-![Architecture Diagram](./assets/Multi-Agent Price Intelligence System.png)
+![Architecture Diagram](./assets/architecture-diagram.png)
 
 
 ## Core Components
